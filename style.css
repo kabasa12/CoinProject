@@ -113,8 +113,18 @@
     
 }
 
-.prog-bar{
+.prog-bar {
   display: none;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  z-index: 10;
+}
+
+.prog-bar img{
+  width: 100%;
+  height: auto;
 }
 
 .coinData{
